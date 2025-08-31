@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newgen Robotics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body class="bg-white text-black font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center px-8 py-4 bg-black shadow-md">
+    <img src="assets/logo.png" alt="Logo" class="h-12">
+    <ul class="flex gap-6 text-white font-semibold">
+      <li><a href="#courses" class="hover:text-yellow-400">Courses</a></li>
+      <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+      <li><a href="#testimonials" class="hover:text-yellow-400">Testimonials</a></li>
+      <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col md:flex-row items-center px-8 py-16 bg-gradient-to-r from-yellow-400 to-yellow-100">
+    <div class="flex-1 text-center md:text-left">
+      <h1 class="text-4xl font-bold text-black mb-4">Welcome to <span class="text-blue-600">NewGen Robotics</span></h1>
+      <p class="text-lg mb-6 text-gray-800">Fun and interactive courses in Robotics, Programming, AI, ML, and Data
+        Science designed for young innovators.</p>
+      <a href="#courses"
+        class="bg-black text-yellow-400 px-6 py-2 rounded-xl font-semibold hover:bg-blue-600 hover:text-white transition">Explore
+        Courses</a>
+    </div>
+    <div class="flex-1">
+      <img src="assets/header.png" alt="Hero Image" class="rounded-2xl shadow-lg">
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="px-8 py-16 bg-gray-50">
+    <h2 class="text-3xl font-bold text-center text-yellow-500 mb-8">Our Courses</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white border-2 border-yellow-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/scratch.png" alt="Scratch" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Scratch</h3>
+        <p class="text-gray-600">Fun coding for beginners using drag-and-drop blocks.</p>
+      </div>
+      <div class="bg-white border-2 border-red-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/app_dev (2).png" alt="App_development" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">App development</h3>
+        <p class="text-gray-600">Build mobile apps with no-code tools.</p>
+      </div>
+      <div class="bg-white border-2 border-green-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/microbit.png" alt="Microbit" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Micro-Bit</h3>
+        <p class="text-gray-600">Hands-on Micro-bit with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-violet-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/Electronics.png" alt="Electronics" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Electronics</h3>
+        <p class="text-gray-600">Hands-on Electronics with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-blue-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/Robotics.png" alt="Robotics" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Robotics</h3>
+        <p class="text-gray-600">Hands-on Robotics with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-orange-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/esp32.png" alt="IoT" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">IoT Internet of Things</h3>
+        <p class="text-gray-600">Hands-on IoT Internet of Things with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-red-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/rasberry.png" alt="RasberryPi" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Rasberry Pi</h3>
+        <p class="text-gray-600">Hands-on Rasberry Pi with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-purple-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/python.png" alt="Python" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Python Programming</h3>
+        <p class="text-gray-600">Hands-on Python Programming with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-pink-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/dsa.png" alt="DSA" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Data structure and Algorithms</h3>
+        <p class="text-gray-600">Learning Data structure and algorithms with leetcode level questions.</p>
+      </div>
+      <div class="bg-white border-2 border-yellow-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/excel.png" alt="Excel" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Ms Excel</h3>
+        <p class="text-gray-600">Hands-on Excel Application with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-cyan-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/sql.png" alt="Sql" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">SQL</h3>
+        <p class="text-gray-600">Hands-on SQL Application with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-green-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/aitools.png" alt="Ai" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Ai Tools</h3>
+        <p class="text-gray-600">All Latest Ai Tools with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-cyan-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/powerBi.png" alt="DataAnalysis" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Data Analysis</h3>
+        <p class="text-gray-600">Hands-on Data Analysis with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-purple-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/data_Science.png" alt="Data_Science" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Data Science</h3>
+        <p class="text-gray-600">Hands-on Data Science with real-world projects.</p>
+      </div>
+      <div class="bg-white border-2 border-blue-400 p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+        <img src="assets/AI.png" alt="Data_Science" class="h-32 mx-auto mb-4">
+        <h3 class="text-xl font-semibold mb-2">Artificial Intelligence</h3>
+        <p class="text-gray-600">Hands-on ML and AI with real-world projects.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="px-8 py-16 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center text-yellow-500 mb-8">Our Projects</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div class="bg-white border-2 border-yellow-400 p-6 rounded-2xl shadow-lg">
+        <img src="assets/smart_irrigation_system.png" alt="Project 1" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold mb-2">Smart Irrigation</h3>
+        <p class="text-gray-600">Automated water system using Arduino and IoT.</p>
+      </div>
+      <div class="bg-white border-2 border-blue-400 p-6 rounded-2xl shadow-lg">
+        <img src="assets/Ai_fireguard.png" alt="Project 2" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold mb-2">AI FireGuard 360</h3>
+        <p class="text-gray-600">Fire detection and prevention system with AI & IoT.</p>
+      </div>
+      <div class="bg-white border-2 border-red-400 p-6 rounded-2xl shadow-lg ">
+        <img src="assets/Ai_thinkable app.png" alt="Project 3" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold mb-2">Ai FireGuard Cloudbased Data App</h3>
+        <p class="text-gray-600">Sensors Sending the Data using Cloud technology.</p>
+      </div>
+      <div class="bg-white border-2 border-green-400 p-6 rounded-2xl shadow-lg">
+        <img src="assets/churn_analysis.png" alt="Project 4" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold mb-2">Customer Churn Analysis</h3>
+        <p class="text-gray-600">Analyzes customer churn in a telecom company to identify key factors contributing to
+          churn</p>
+      </div>
+      <div class="bg-white border-2 border-violet-400 p-6 rounded-2xl shadow-lg">
+        <img src="assets/price_pred.png" alt="Project 5" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold mb-2">Banglore Price Prediction</h3>
+        <p class="text-gray-600">Used multiple machine learning models to forecast sales (retail store) and performed
+          time series analysis.</p>
+      </div>
+      <div class="bg-white border-2 border-orange-400 p-6 rounded-2xl shadow-lg">
+        <img src="assets/image_class.png" alt="Project 6" class="rounded-xl mb-4">
+        <h3 class="text-xl font-semibold mb-2">Image Classification</h3>
+        <p class="text-gray-600">Developed a ML model to give various recommendations of financial products services on
+          target customer groups.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="px-6 py-16 bg-white">
+    <h2 class="text-3xl font-bold text-center text-yellow-500 mb-10">Testimonials</h2>
+    <div class="overflow-x-auto flex gap-4 scroll-smooth pb-4" id="testimonialSlider">
+      <div
+        class="bg-gray-50 border border-yellow-400 p-4 rounded-xl w-64 shrink-0 shadow-sm hover:shadow-md transition">
+        <p class="text-gray-700 text-sm leading-relaxed">
+          "This course helped me build my first robot using Arduino microcontroller!"
+        </p>
+        <span class="block mt-2 text-gray-600 text-xs font-semibold">- Atharv Pundir</span>
+      </div>
+      <div class="bg-gray-50 border border-blue-400 p-4 rounded-xl w-64 shrink-0 shadow-sm hover:shadow-md transition">
+        <p class="text-gray-700 text-sm leading-relaxed">
+          "The Python lessons were super fun and easy i have created almost 15 good projects."
+        </p>
+        <span class="block mt-2 text-blue-600 text-xs font-semibold">- Pranavi Singhla</span>
+      </div>
+      <div class="bg-gray-50 border border-green-400 p-4 rounded-xl w-64 shrink-0 shadow-sm hover:shadow-md transition">
+        <p class="text-gray-700 text-sm leading-relaxed">
+          "Great teachers and hands-on projects he makes every concept like peanuts for me and i am more confident."
+        </p>
+        <span class="block mt-2 text-green-600 text-xs font-semibold">- Nithya</span>
+      </div>
+      <div class="bg-gray-50 border border-red-400 p-4 rounded-xl w-64 shrink-0 shadow-sm hover:shadow-md transition">
+        <p class="text-gray-700 text-sm leading-relaxed">
+          "Unique way to teach which is the best part specially the game projects."
+        </p>
+        <span class="block mt-2 text-red-600 text-xs font-semibold">- Sravya</span>
+      </div>
+      <div
+        class="bg-gray-50 border border-violet-400 p-4 rounded-xl w-64 shrink-0 shadow-sm hover:shadow-md transition">
+        <p class="text-gray-700 text-sm leading-relaxed">
+          "Made the complex coding easy for me, he co relate every concept like a real life scenario which is really helpful for me."
+        </p>
+        <span class="block mt-2 text-violet-600 text-xs font-semibold">- Nitya Ramya</span>
+      </div>
+      <div
+        class="bg-gray-50 border border-orange-400 p-4 rounded-xl w-64 shrink-0 shadow-sm hover:shadow-md transition">
+        <p class="text-gray-700 text-sm leading-relaxed">
+          "Good communication very gentle classes runs very smoothly and timings are flexible so i never miss any session."
+        </p>
+        <span class="block mt-2 text-orange-600 text-xs font-semibold">- Jaiditya</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="px-8 py-16 bg-gray-50 text-center">
+    <h2 class="text-3xl font-bold text-yellow-500 mb-6">Contact Us</h2>
+    <p>Email:
+      <a href="mailto:newgenrobotics72@gmail.com" class="text-blue-600">
+        newgenrobotics72@gmail.com
+      </a>
+    </p>
+    <p>WhatsApp:
+      <a href="https://wa.me/919971475942" target="_blank" class="text-green-600">
+        +91 9971475942
+      </a>
+    </p>
+
+    <!-- Social Media Icons -->
+    <div class="flex justify-center gap-6 mt-6 text-2xl">
+      <a href="#" class="hover:text-yellow-500" aria-label="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.youtube.com/@newgenrobotics" class="hover:text-yellow-500" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="#" class="hover:text-yellow-500" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="hover:text-yellow-500" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="#" class="hover:text-yellow-500" aria-label="Twitter / X">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+  </section>
+
+  <!--Get Started CTA Section -->
+  <section class="px-8 py-16 bg-gradient-to-r from-yellow-400 to-yellow-300 text-center">
+    <h2 class="text-4xl font-bold text-black mb-4">Ready to Start Your Robotics Journey?</h2>
+    <p class="text-lg text-gray-800 mb-6">Join our fun and interactive classes today and build amazing projects with us!
+    </p>
+    <a href="#contact"
+      class="bg-black text-yellow-400 px-8 py-3 rounded-xl font-semibold text-lg hover:bg-blue-600 hover:text-white transition">Get
+      Started</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-black text-yellow-400">
+    <p>&copy; 2025 Newgen Robotics. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
